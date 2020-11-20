@@ -1,2 +1,3 @@
-/index.html     https://www.washingtonpost.com/
-/               https://www.washingtonpost.com/
+# Redirect default Netlify subdomain to primary domain
+https://capitalwnews.netlify.app/* https://www.washingtonpost.com/:splat 301!
+https://capitalwnews.org/* https://www.washingtonpost.com/:splat 301!
